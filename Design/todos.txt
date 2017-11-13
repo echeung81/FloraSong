@@ -1,0 +1,78 @@
+--pool of yellow things floats down from arbitrary point. appears on your hand when you pick it up. throw it and the bosses HP goes down
+
+boss throws projectile at you at regular intervals--
+
+
+Branches falling down when sine charge happens X
+Percentage chance of things happening X
+Up and down a little bit randomly during fight X
+
+lots of fish
+
+THIS WEEK:
+
+Dev Blog X
+
+Create enemy wave prototype
+Clean up/Reassess infrastruture
+Event driven system?
+
+Level Design in Unity and Asset Loading
+Create level prototype 
+import music code to game 
+
+
+
+i am 36 years old. i need to start thinking about the future. 
+career, relationship, etc. don't think about the past except for lesson. think about the present, and who and what will be a part of your future
+
+
+
+camera system
+
+event driven system
+
+reassess the whole infrastructure of paths and shooting projectiles. how do we design/script it in the level. what's the effort
+
+
+scope a running through area
+
+scope a area where a lot of enemies are after you but static or small area
+
+
+
+ymin  ymax
+
+
+currY
+
+currY - ymin
+
+currY - yMax 
+
+pct  chance of moving up and down is 
+
+(currY - yMin) / yWindow
+
+(currY - yMax) / yWindow
+
+if yMin
+take a random value 0 and currY - yMin and that's the amount you move up
+
+if yMax
+take a random value 0 and currY - yMax and that's the amount you move down
+
+MoveDistance and sign
+
+Create a new spline with 0, 1/3 2/3, 1 with distances set by the yDist.
+Create a spline walker with the right duration. (duration is the meters / (meters per second)). this gives seconds. set that param in the anim state by taking 1/secs of movement
+
+
+
+amount you move is some random amount between  the distance
+
+
+
+
+
+
